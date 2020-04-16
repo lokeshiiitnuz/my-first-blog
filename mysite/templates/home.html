@@ -1,0 +1,15 @@
+{% extends 'base.html'%} {% load static %} {%block content%}
+<div>
+  <h2>Home Page</h2>
+  <p style="text-align: right;">
+    Welcome to My Site... {% if user.is_authenticated%}
+    <strong style="text-transform: capitalize;">{{user.username}}!</strong>
+
+    {%else%} Stranger !{%endif%} {% if user.is_authenticated%}
+    <br />
+  </p>
+  {%endif%}
+  <img src="https://wallpapercave.com/wp/6Hlpia0.jpg" alt="" />
+</div>
+
+{%endblock%}

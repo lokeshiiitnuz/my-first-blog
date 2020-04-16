@@ -1,2 +1,0 @@
-# my-first-blog
- django
