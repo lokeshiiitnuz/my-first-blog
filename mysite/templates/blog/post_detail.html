@@ -8,7 +8,7 @@
   <a class="btn btn-outline-primary  icon-1 mt-4 mb-4 " href="{% url 'post_edit' pk=post.pk %}"
     >Edit Post</span
   ></a>
-  <h2>Title : {{ post.title }}</h2>
+  <h2>{{ post.title }}</h2>
   <hr>
   <p>{{ post.text|linebreaksbr }}</p>
 </div>
