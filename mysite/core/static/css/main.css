@@ -1,15 +1,10 @@
-
-{% load static %}
 body {
   height: 100%;
   background: linear-gradient(rgba(1, 168, 255, 0.5), rgba(1, 168, 255, 1));
 }
 .base-body {
- 
   height: 100vh;
 }
-
-
 
 .post {
   background: linear-gradient(rgba(1, 168, 255, 0.5), rgba(1, 168, 255, 1));
@@ -17,6 +12,12 @@ body {
   margin: 30px;
   padding: 30px;
   word-wrap: break-word;
+}
+.home-page {
+  background: linear-gradient(rgba(1, 168, 255, 0.1), rgba(1, 168, 255, 1));
+  height: 100vh;
+  clip-path: polygon(100% 0%, 100% 57%, 50% 100%, 0 57%, 0 0);
+  z-index: -1;
 }
 
 .icon-1 {
