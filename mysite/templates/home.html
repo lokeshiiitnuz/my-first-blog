@@ -15,10 +15,31 @@
     Welcome to My Site... {% if user.is_authenticated%}
     <strong style="text-transform: capitalize;">{{user.username}}!</strong>
 
-    {%else%} Stranger !{%endif%} {% if user.is_authenticated%}
+    {%else%} Strangerr !{%endif%}
     <br />
   </p>
-  {%endif%}
+  <div style="font-weight: 500; margin-top: 50px;" class="quotes1">
+    <ul style="color: black; list-style: none; z-index: 10;">
+      <li class="quotes" style="margin: 0px;">
+        "When hungry, eat your rice; when tired, close your eyes. Fools may
+        laugh at me, but wise men will know what I mean". —Lin-Chi
+      </li>
+      <hr />
+      <li class="quotes" style="margin: 0px;">
+        “The purpose of our lives is to be happy.” — Dalai Lama
+      </li>
+      <hr />
+
+      <li class="quotes" style="margin: 0px;">
+        "The real question is not whether life exists after death. The real
+        question is whether you are alive before death." — Osho
+      </li>
+
+      <hr />
+
+      <hr />
+    </ul>
+  </div>
 </div>
 
 {%endblock%}
